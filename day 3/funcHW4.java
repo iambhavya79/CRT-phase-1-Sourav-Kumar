@@ -1,10 +1,10 @@
 public class funcHW4 {
-    public static void greet(String name) { // parameter
+    public static void greet(String name) { 
         System.out.println("Hello " + name);
     }
 
     public static void main(String[] args) {
-        greet("Bhavya"); // argument
+        greet("Bhavya"); 
     }
 }
 
