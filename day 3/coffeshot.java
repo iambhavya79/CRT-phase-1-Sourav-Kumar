@@ -8,12 +8,12 @@ public class coffeshot {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter number of coffee shots: ");
+            int cof = sc.nextInt();
 
-        System.out.print("Enter number of coffee shots: ");
-        int cof = sc.nextInt();
-
-        int result = Shots(cof);
-        System.out.println("Total coffee volume = " + result + " ml");
+            int result = Shots(cof);
+            System.out.println("Total coffee volume = " + result + " ml");
+        }
     }
 }
