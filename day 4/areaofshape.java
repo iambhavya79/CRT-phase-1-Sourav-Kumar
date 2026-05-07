@@ -40,7 +40,3 @@ class area{
         area = 3.14f * rad * rad ;
     }
 }
-// write a java program to t==crate an student 
-// management system whre we store and displAY 
-// A STUDENT DETAIAL NAME, ROLL, REGI,Emial
-//  phone no marks using paramateric and deafault constuctor..?
