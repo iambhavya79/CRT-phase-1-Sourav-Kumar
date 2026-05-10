@@ -9,5 +9,7 @@ public class string2 {
         // java doesn't have pop_back
         // java doesn't have direct swap function
         // java doesn't have push_back function
+        
+        System.out.println(str1.substring(1, 4));
     }
 }
