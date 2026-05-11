@@ -1,15 +1,15 @@
-public class string2 {
+public class String_2_ {
     public static void main(String[] args) {
-        String str1 = "hello ";
+        String str = "hello ";
         String str2 = "jecrc";
-        int n = str1.length();
+        int n = str.length();
         System.out.println(n);
-        System.out.println(str1 + "student");
-        System.out.println(str1.isEmpty());
+        System.out.println(str + "student");
+        System.out.println(str.isEmpty());
         // java doesn't have pop_back
         // java doesn't have direct swap function
         // java doesn't have push_back function
         
-        System.out.println(str1.substring(1, 4));
+        System.out.println(str.substring(1, 4));
     }
 }
