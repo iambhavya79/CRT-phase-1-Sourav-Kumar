@@ -1,5 +1,11 @@
 public class reverse_string {
+    
+//     public static void main(String[] args) {
 
+//         StringBuilder str = new StringBuilder("hello");
+
+//         System.out.println(str.reverse());
+//     }
     public static void main(String[] args) {
 
         char[] s = {'h', 'e', 'l', 'l', 'o'};
@@ -23,4 +29,5 @@ public class reverse_string {
             s[i] = rev.charAt(i);
         }
     }
+
 }
